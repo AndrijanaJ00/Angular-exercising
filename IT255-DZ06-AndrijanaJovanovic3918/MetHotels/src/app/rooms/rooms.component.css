@@ -1,0 +1,77 @@
+.card {
+  display: inline-block;
+  margin: 1em 2em;
+  text-align: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: white;
+  -webkit-box-shadow: 5px 6px 44px 16px rgba(0,0,0,0.8); 
+  box-shadow: 5px 6px 44px 16px rgba(0,0,0,0.8);
+}
+
+.mat-card{
+  width: 20em;
+  background-color: white;
+  color: black;
+}
+
+.mat-card-subtitle{
+  color: black;
+}
+
+.rooms-wrapper {
+  width: 100vw;
+  height: 6em;
+  margin-bottom: 3em;
+}
+
+.search {
+  margin: 1.5em 1em 1em;
+  /*float: right;*/
+}
+
+.add-randomize-btn-group {
+  float: left;
+  margin-left: 2em;
+}
+
+.randomize-btn {
+  margin-top: 2.2em;
+  margin-left: 6.5em;
+  background-color: rgb(19, 85, 228);
+}
+
+.delete-btn{
+  color: rgb(19, 85, 228);
+}
+
+.edit-btn{
+  color: rgb(19, 85, 228);
+}
+
+.add-fab {
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(19, 85, 228);
+}
+
+.mat-card {
+  max-width: 20em;
+}
+
+h4 {
+  margin-top: 1.8em;
+  float: left;
+  color: rgb(211, 16, 16);
+}
+
+button {
+  margin-top: 1.5em;
+  float: right;
+}
+
+.edit-delete-btn-group>button {
+  margin-top: 0;
+}
+
+
