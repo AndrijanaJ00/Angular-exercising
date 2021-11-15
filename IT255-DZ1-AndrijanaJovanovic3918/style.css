@@ -1,0 +1,88 @@
+.header{
+    text-align: center;
+    background-color: grey;
+}
+
+.header h1{
+    padding: 20px 0px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    padding: 20px;
+    column-gap: 10px;
+}
+
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+
+aside{
+    margin: 0 auto;
+}
+
+aside img{
+    width: 350px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+.title h4{
+    margin: 10px auto;
+}
+
+nav{
+    text-align: center;
+}
+
+button{
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+button a{
+    color: white;
+}
+
+button a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+article{
+  padding-top: 30px;
+}
+
+.form{
+  display: block;
+  text-align: center;
+  margin: 1px auto;
+}
+
+#button{
+    margin-top: 10px;
+}
+
+article h3{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+footer p{
+    padding: 15px 0px;
+}

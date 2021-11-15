@@ -1,0 +1,233 @@
+#header {
+    transition: all 0.5s;
+    background: #fff;
+    z-index: 997;
+    padding: 15px 0;
+    border-bottom: 1px solid #e6f2fb;
+}
+
+#header .logo {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+}
+
+#header .logo a {
+    color: #16507b;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.active-nav {
+    color: white;
+    background-color: darkorange;
+    padding-right: 15px;
+}
+
+.span-new {
+    color: white;
+    background-color: #d04848;
+    margin-left: 2px;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 14px;
+    color: #16507b;
+    white-space: nowrap;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.navbar a i, .navbar a:focus i {
+    font-size: 12px;
+    line-height: 0;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover>a {
+    color: #2487ce;
+    text-decoration: none;
+}
+
+.navbar .getstarted, .navbar .getstarted:focus {
+    background: none;
+    color: black;
+    text-align: center;
+    margin-left: 30px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.navbar .dropdown ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.navbar .dropdown ul li {
+    min-width: 200px;
+}
+
+.navbar .dropdown ul a {
+    padding: 10px 20px;
+    text-transform: none;
+}
+
+.navbar .dropdown ul a i {
+    font-size: 12px;
+}
+
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover>a {
+    color: #2487ce;
+}
+
+.navbar .dropdown:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.navbar .dropdown .dropdown ul {
+    top: 0;
+    left: calc(100% - 30px);
+    visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover>ul {
+    opacity: 1;
+    top: 0;
+    left: 100%;
+    visibility: visible;
+}
+
+.hero-text {
+    text-align: left;
+}
+
+#hero .container {
+    padding-top: 80px;
+}
+
+#hero h1 {
+    margin: 0;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero h2 {
+    color: white;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+}
+
+#hero .btn-get-started {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.btn-hero {
+    margin-top: 3em;
+    margin-left: 13em;
+}
+
+.btn-get-started:first-child {
+    background-color: darkorange !important;
+}
+
+#hero {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-rfstudio-3810796.jpg");
+    background-size: cover;
+}
+
+.row {
+    padding-left: 20%;
+}
+
+.icon-boxes {
+    margin-top: 50px;
+}
+
+.icon-box {
+    padding: 30px 10px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(235, 233, 233);
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.icon-box .title {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.icon-box .title a {
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.icon-box .description {
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.icon-box .icon {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 36px;
+}
+
+.icon-box {
+    text-align: center;
+}
